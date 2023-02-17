@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy and Policy</title>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/0882f7ba6b.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Bootstrap Link Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="privacy.css" />
+
+
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <header>
+        <nav>
+          <a href="Home.html" id="logo">ABC</a>
+          
+          <i class="fas fa-bars" id="ham-menu"></i>
+          <ul id="nav-bar">
+            <li>
+              <a href="Home.html">Home</a>
+            </li>
+            <li>
+              <a href="course.html">Course</a>
+            </li>
+            <li>
+              <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <li>
+              <a href="signup.html">Sign-Up</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="home1-section">
+            <h1>ABC Learning Privacy Policy</h1>
+          <div class="privacy-content">
+            <div class="content1  ">
+              <q>
+                ABC Learning (also referred to as "we" or "us" in this Privacy Policy) values the confidentiality and protection of your information. We operate the ABC Learning website, which includes content and pages located within the abc-learning.com web domain and ABC Learning mobile applications.
+            </q>
+            </div>
+            <div class="content2  ">
+                <h2>The ABC Learning website allows you to:<br></h2>
+                <ul>
+                    <li>Browse courses and programs offered by ABC Learning and its partners</li>
+                    <li>Create an ABC Learning account</li>
+                    <li>Sign up to receive more information about courses and programs</li>
+                </ul>
+            </div>
+            <div class="content3 reveal">
+                <p>
+                    This Privacy Policy explains how ABC Learning collects, uses, and shares your Personal Information when you interact with the website or when someone interacts with the site on your behalf (such as an administrator for the institution sponsoring your enrollment). "Personal Information" refers to information that can directly or indirectly identify an individual.
+                </p>
+            </div>
+            <div class="content4 reveal">
+              <p>
+                This Privacy Policy also describes how ABC Learning uses your Personal Information when you interact with us on other websites, such as social media sites.
+            </p>
+            </div>
+            <div class="content5 reveal">
+              <p>If you do not agree with the terms of this Privacy Policy, please do not access, browse, or create an account on the ABC Learning website, enroll in any courses, or complete any form requesting additional information about offerings.</p>
+              
+            </div>
+            
+            <div class="content6">
+              <div class="content7 reveal">
+
+                <p>Please note that this Privacy Policy may be updated from time to time, and the most recent version will be posted on our website.</p>
+              </div>
+            </div>
+
+          </div>
+           
+        </section>
+
+      </main>
+
+
+      <footer class="footer">
+        <a href="Home.html" id="logo">ABC</a>
+
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="course.html">Course</a>
+            </li>
+
+            <li>
+              <a href="course_schedule.html">Course Schedule</a>
+            </li>
+
+            <li>
+              <a href="privacy.html">Privacy and Policy</a>
+            </li>
+
+            <li>
+              <a href="aboutus.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+
+          <div class="footer-links">
+            <ul>
+              <li>
+              <a href="contactus.html">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+
+            <li>
+              <a href="signup.html">Sign-Up</a>
+            </li>
+
+            <li>
+              <a href="sitemap.html">Site-Map</a>
+            </li>
+            </ul>
+            
+          </div>
+        <div class="footer-icons-text">
+          <h3>Subscribe us</h3>
+
+          <div class="footer-icons">
+          <a href="https://www.facebook.com/login.php">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/i/flow/login">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          
+          <a href="https://www.instagram.com/accounts/login/">
+            <i class="fa fa-instagram"></i>
+          </a>
+          
+          <a href="https://www.linkedin.com/login">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          
+        </div>
+
+        </div>
+        
+      </footer>
+
+    </div>
+
+    <!-- Script -->
+    <script>
+      function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+    
+    for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+    
+    if (elementTop < windowHeight - elementVisible) {
+    reveals[i].classList.add("active");
+    } else {
+    reveals[i].classList.remove("active");
+    }
+    }
+    }
+    
+    window.addEventListener("scroll", reveal);
+      </script>
+    <script src="script.js"></script>
+  </body>
+</html>
