@@ -99,13 +99,24 @@
   width: 400px;
   margin-left: 300px;
 }
+.content2 button{
+  padding: 10px;
+  background-color: #983e0a;
+  border: solid ;
+  border-color: #379e90;
+  border-radius: 20px;
+  font-size: 20px;
+   
+}
+
 .content2 q{
   
   font-size: 20px;
 }
 .content2 h2{
   color: #ffffff;
-  font-size: 40px;
+  font-size: 35px;
+  text-align: center;
 }
 .content2 img{
   border-radius: 20px;

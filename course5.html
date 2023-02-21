@@ -58,7 +58,8 @@
                 </q>
              </div>
              <div class="content2">
-              <h2>Learning outcomes</h2>
+              <button><h2>Learning outcomes</h2></button>
+
               <q>The course outcomes include proficiency in using JavaScript for web development and an understanding of web application architecture.</q>
               <img src="Img/img8.jpg" alt="">
              </div>
@@ -140,6 +141,15 @@
     </div>
 
     <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          $(".content2 q").slideToggle();
+        });
+      });
+      </script>
+
     <script src="script.js"></script>
   </body>
 </html>
