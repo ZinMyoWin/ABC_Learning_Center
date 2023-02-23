@@ -1,0 +1,40 @@
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: darkgreen;
+  }
+  
+  #registration-info {
+    margin-top: 20px;
+  }
+  
